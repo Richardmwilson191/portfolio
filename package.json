@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Richardmwilson191/portfolio.git"
+  },
+  "author": "Richard Wilson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Richardmwilson191/portfolio/issues"
+  },
+  "homepage": "https://github.com/Richardmwilson191/portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
