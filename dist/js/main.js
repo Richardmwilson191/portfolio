@@ -5,6 +5,8 @@ const menu = document.querySelector(".menu");
 const menuNav = document.querySelector(".menu-nav");
 const menuBranding = document.querySelector(".menu-branding");
 const navItems = document.querySelectorAll(".nav-item");
+const copy = document.getElementById("copy");
+const year = new Date();
 
 //Set initial menu state
 let showMenu = false;
@@ -33,3 +35,6 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+
+// Set copyright date
+copy.innerHTML = year.getFullYear();
