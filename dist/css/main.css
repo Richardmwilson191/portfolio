@@ -55,7 +55,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("/dist/img/LinkedIn DP.jpg");
+      background: url("dist/img/LinkedIn DP.jpg");
       border-radius: 50%;
       border: solid 3px #0099bf;
       background-size: cover; }
@@ -102,7 +102,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(/dist/img/apple-b&w.jpg);
+    background: url(../img/apple-b&w.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -170,7 +170,7 @@ main {
 .portrait {
   width: 250px;
   height: 250px;
-  background: url("/dist/img/LinkedIn DP.jpg");
+  background: url("dist/img/LinkedIn DP.jpg");
   border-radius: 50%;
   border: solid 3px #0099bf;
   background-size: cover; }
