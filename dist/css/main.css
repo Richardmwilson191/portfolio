@@ -55,7 +55,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("dist/img/LinkedIn DP.jpg");
+      background: url("../img/LinkedIn DP.jpg");
       border-radius: 50%;
       border: solid 3px #0099bf;
       background-size: cover; }
@@ -166,11 +166,16 @@ main {
     margin: 1rem; }
     #technologies img #django {
       background-color: black; }
+  #technologies span {
+    display: inline-block;
+    position: relative;
+    bottom: 1.5rem;
+    background: #ddd; }
 
 .portrait {
   width: 250px;
   height: 250px;
-  background: url("dist/img/LinkedIn DP.jpg");
+  background: url("../img/LinkedIn DP.jpg");
   border-radius: 50%;
   border: solid 3px #0099bf;
   background-size: cover; }

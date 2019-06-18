@@ -50,7 +50,6 @@ header {
 
 main {
   padding: 4rem;
-  //height: 100%;
   min-height: calc(100vh - 60px);
 
   .icons {
@@ -85,6 +84,13 @@ main {
       background-color: black;
     }
   }
+
+  span {
+    display: inline-block;
+    position: relative;
+    bottom: 1.5rem;
+    background: #ddd;
+  }
 }
 
 // About
@@ -92,7 +98,7 @@ main {
 .portrait {
   width: 250px;
   height: 250px;
-  background: url("dist/img/LinkedIn\ DP.jpg");
+  background: url("../img/LinkedIn\ DP.jpg");
   border-radius: 50%;
   border: solid 3px $secondary-color;
   background-size: cover;
@@ -108,9 +114,6 @@ main {
 
   .portrait {
     grid-area: bioimage;
-    //     margin: auto;
-    //     border-radius: 50%;
-    //     border: $secondary-color 3px solid;
   }
 
   .bio {
